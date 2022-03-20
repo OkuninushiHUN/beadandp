@@ -19,7 +19,7 @@ class DB{
     {
         $options=[PDO::ATTR_DEFAULT_FETCH_MODE=>PDO::FETCH_ASSOC];
         $this->pdo= new PDO(
-            'mysql:host=localhost;dbname=',
+            'mysql:host=localhost;dbname=sawmill',
             'root','',
             $options
         );
